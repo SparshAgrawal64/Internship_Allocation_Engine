@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la \"C:/Users/LOQ/Downloads\" | head -50)",
+      "Bash(cp C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/README.md C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/requirements.txt C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/.gitignore C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/)",
+      "Bash(cp C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/src/*.py C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/src/)",
+      "Bash(cp C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/demoData/*.csv C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/demoData/)",
+      "Bash(cp C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/acceptance_model.pkl C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/)",
+      "Bash(cp C:/Users/LOQ/Downloads/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/AI-Based-Smart-Allocation-Engine-for-PM-Internship-Scheme-main/src/acceptance_model.pkl C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/src/)",
+      "Bash(npm install *)",
+      "Bash(sed -i \"s|'./src/|'C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/frontend/src/|g\" /tmp/enginetest.mjs)",
+      "Bash(node /tmp/enginetest.mjs)",
+      "Bash(sed \"s|'C:/Users/LOQ/OneDrive/Desktop/SIH_MINI/frontend/src/|'./src/|g\" /tmp/enginetest.mjs)",
+      "Bash(node ./enginetest.mjs)",
+      "Bash(node -e \"const p=require\\('./package.json'\\);console.log\\(JSON.stringify\\({d:p.dependencies,dev:p.devDependencies},null,1\\)\\)\")"
+    ]
+  }
+}
